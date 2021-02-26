@@ -9,7 +9,7 @@
 This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
 ## KNOWN BUGS
-
+- none yet
 
 # Setup/Installation Requirements .Net Installation
 
@@ -58,18 +58,18 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 ## TESTS
 ```CS
 
-| Bread_Object_Bread; |  |
-| ------| -----------|
-| test:  should create an instance of Bread
+Bread_Object_Bread;
 
-| Assert.AreEqual(typeof(Pastry), newPastry);
+test:should create an instance of Bread
+
+Assert.AreEqual(typeof(Pastry), newPastry);
 
 
-Bread_BreadQuantity_Int; |  |
-| ------| -----------|
-| test: | newBread.Quantity                      
+Bread_BreadQuantity_Int;
 
-| expect:Bread newBread = new Bread  | Assert.AreEqual(0, result). |
+test:newBread.Quantity
+
+expect:Bread newBread = new Bread  Assert.AreEqual(0, result).
 
 ```
 

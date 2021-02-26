@@ -1,19 +1,15 @@
-
-
 <div align="left">
 <img src="https://github.com/BrianSturgis.png" width="200px" height="auto" >
 </div>
-<p align="center"> Authored by Brian Sturgis</p>
-<p align="center">Updated on Feb 26th, 2021</p>
+<p align="left"> Authored by Brian Sturgis</p>
+<p align="left">Updated on Feb 26th, 2021</p>
 
 
 ## Detailed Description
 This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
 ## KNOWN BUGS
-- this application HAS been fulled tested.
-- this application has not been testes for malicous use
-  
+
 
 # Setup/Installation Requirements .Net Installation
 
@@ -53,8 +49,6 @@ Run the following command $"dotnet restore" to retrieve and install the packages
 Then run the following command: $ dotnet test.
 
 ## Stretch goals
-- unity driven UI
-
 
 
 ## Support and contact details
@@ -62,27 +56,24 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 
 ## TESTS
-
-
+```CS
 
 | Bread_Object_Bread; |  |
 | ------| -----------|
-| test:  should create an instance of Bread 
+| test:  should create an instance of Bread
+
 | Assert.AreEqual(typeof(Pastry), newPastry);
 
 
 Bread_BreadQuantity_Int; |  |
 | ------| -----------|
-| test: | newBread.Quantity                       |
-|  
+| test: | newBread.Quantity                      
+
 | expect:Bread newBread = new Bread  | Assert.AreEqual(0, result). |
 
-
-
-
+```
 
 ## Technologies Used
-
 * C#
 * NET
 * VisualStudio Code
@@ -93,17 +84,10 @@ Bread_BreadQuantity_Int; |  |
   
 
 ### License
-
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE..
 
-
-
 Copyright (c) 2020 **Brian Micheal Sturgis**
-
-
-
-

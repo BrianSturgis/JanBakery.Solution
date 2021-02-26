@@ -4,7 +4,6 @@
 <p align="left"> Authored by Brian Sturgis</p>
 <p align="left">Updated on Feb 26th, 2021</p>
 
-
 ## Detailed Description
 This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
@@ -81,7 +80,6 @@ expect:Bread newBread = new Bread  Assert.AreEqual(0, result).
 * GitHub
 * MSTest
 * coffee
-  
 
 ### License
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:

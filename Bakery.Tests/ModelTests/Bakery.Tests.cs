@@ -18,7 +18,9 @@ namespace Bakery.Tests
       [TestMethod]
       public void Bread_BreadQuantity_Int()
       {
-        
+      Bread newBread = new Bread(1);
+      int result = newBread.Quantity;
+      Assert.AreEqual(0, result);
       }
 
     }

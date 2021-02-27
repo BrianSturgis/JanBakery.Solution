@@ -61,7 +61,7 @@ Bread_Object_Bread;
 
 test:should create an instance of Bread
 
-Assert.AreEqual(typeof(Pastry), newPastry);
+Assert.AreEqual(typeof(Bread), newBread);
 
 
 Bread_BreadQuantity_Int;

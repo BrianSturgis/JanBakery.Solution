@@ -6,8 +6,6 @@ namespace Bakery.Tests
   [TestClass]
     public class BakeryTests
     {
-
-
       [TestMethod]
       public void Bread_Object_Bread()
       {
@@ -38,8 +36,5 @@ namespace Bakery.Tests
         Bread newBread = new Bread(Quantity);
         Assert.AreEqual(20, newBread.BreadTotal(Quantity));
         }
-
-    
-
     }
 }

@@ -11,8 +11,8 @@ namespace Bakery.Tests
       [TestMethod]
       public void Bread_Object_Bread()
       {
-       Bread newBread = new Bread(1);
-       Assert.AreEqual(typeof(Bread), newBread.GetType());
+      Bread newBread = new Bread(1);
+      Assert.AreEqual(typeof(Bread), newBread.GetType());
       }
 
       [TestMethod]
@@ -22,6 +22,17 @@ namespace Bakery.Tests
       int result = newBread.Quantity;
       Assert.AreEqual(0, result);
       }
+
+      [TestMethod]
+      public void Bread_SingleBreadNoDiscount_Int()
+      {
+        int quantity = 1;
+        Bread newBread = new Bread(quantity);
+        Assert.AreEqual(5, newBread.BreadTotal(quantity));
+      }
+
+
+    
 
     }
 }

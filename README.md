@@ -48,7 +48,7 @@ Run the following command $"dotnet restore" to retrieve and install the packages
 Then run the following command: $ dotnet test.
 
 ## Stretch goals
-
+-animated UI
 
 ## Support and contact details
 email Brian Sturgis @ <sturujisu@gmail.com>

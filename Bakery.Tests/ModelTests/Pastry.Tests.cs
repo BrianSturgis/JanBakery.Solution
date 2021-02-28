@@ -14,8 +14,6 @@ namespace Bakery.Tests
     }
 
     [TestMethod]
-
-    [TestMethod]
       public void Pastry_PastryQuantity_Int()
       {
         Pastry newPastry = new Pastry(1);

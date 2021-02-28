@@ -7,11 +7,7 @@
 ## Detailed Description
 This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
 
-## KNOWN BUGS
-- none yet
-
 # Setup/Installation Requirements .Net Installation
-
 ## GIT HUB
 - repository location (https://github.com/BrianSturgis/JanBakery.Solution
 - open through a git terminal or clone editor.
@@ -47,12 +43,14 @@ Open Terminal, navigate into the "Bakery.Tests/" folder in the command line
 Run the following command $"dotnet restore" to retrieve and install the packages we listed in .csproj in our application.
 Then run the following command: $ dotnet test.
 
+## KNOWN BUGS
+- none yet
+
 ## Stretch goals
 -animated UI
 
 ## Support and contact details
 email Brian Sturgis @ <sturujisu@gmail.com>
-
 
 ## TESTS
 ```CS

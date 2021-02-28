@@ -30,7 +30,14 @@ namespace Bakery.Tests
         Bread newBread = new Bread(quantity);
         Assert.AreEqual(5, newBread.BreadTotal(quantity));
       }
+      [TestMethod]
 
+        public void Bread_BreadDiscount_Int()
+        {
+        int Quantity = 5;
+        Bread newBread = new Bread(Quantity);
+        Assert.AreEqual(20, newBread.BreadTotal(Quantity));
+        }
 
     
 

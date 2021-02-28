@@ -5,6 +5,20 @@ namespace Bakery.Models
 {
   public class Pastry
   {
+    public int Quantity { get; set; }
+    public int Total { get; set; }
+    public Pastry(int a)
+      {
+        Quantity = 0;
+        Total = 0;
+      }
+
+
+
+
+
+
+
 
 
   }

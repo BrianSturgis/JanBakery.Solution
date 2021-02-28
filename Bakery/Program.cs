@@ -8,6 +8,9 @@ namespace Bakery
   {
     static void Main()
     {
+      Console.BackgroundColor = ConsoleColor.Blue;
+      Console.ForegroundColor = ConsoleColor.Black;
+      Console.Clear();
       Console.WriteLine("hello");
       Console.WriteLine("Today our bread which is $5 a loaf is buy 2 get one free and");
       Console.WriteLine("our Pastry which is $2 a piece is $5 for 3 of them.");
@@ -30,7 +33,6 @@ namespace Bakery
           Console.WriteLine("type 'dotnet run' to make another order");
         }
       }
-
     }
   }
 }

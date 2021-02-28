@@ -5,7 +5,7 @@
 <p align="left">Updated on Feb 26th, 2021</p>
 
 ## Detailed Description
-This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based .
+This application is for placing orders for a bakery. It can provide the user with two options currently and will allow for a discount per item to be applied when it calculates the total based.
 
 # Setup/Installation Requirements .Net Installation
 ## GIT HUB

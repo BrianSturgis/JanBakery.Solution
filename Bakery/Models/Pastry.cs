@@ -17,14 +17,5 @@ namespace Bakery.Models
         Total = (Quantity * 2) - ((Quantity / 3) * 1);
         return Total;
       }
-
-
-
-
-
-
-
-
-
   }
 }

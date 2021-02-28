@@ -20,15 +20,20 @@ namespace Bakery.Tests
         int result = newPastry.Quantity;
         Assert.AreEqual(0, result);
       }
+      [TestMethod]
+      public void Pastry_PastryTotal_Int()
+      {
+        Pastry newPastry = new Pastry(1);
+        int result = newPastry.Total;
+        Assert.AreEqual(0, result);
+      }
+      [TestMethod]
+      public void Pastry_SinglePastryNoDiscount_Int()
+      {
+        int quantity = 1;
+        Pastry newPastry = new Pastry(quantity);
+        Assert.AreEqual(2, newPastry.PastryTotal(quantity));
+      }
 
-
-
-
-
-
-
-
-
-
-    }
+  }
 }

@@ -12,6 +12,11 @@ namespace Bakery.Models
         Quantity = 0;
         Total = 0;
       }
+    public int PastryTotal(int Quantity)
+      {
+        Total = (Quantity * 2) - ((Quantity / 3) * 1);
+        return Total;
+      }
 
 
 

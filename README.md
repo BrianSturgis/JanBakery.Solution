@@ -54,12 +54,10 @@ email Brian Sturgis @ <sturujisu@gmail.com>
 
 ## TESTS
 ```CS
-
 Bread_Object_Bread;
 
 test:should create an instance of Bread
 Assert.AreEqual(typeof(Bread), newBread);
-
 
 Bread_BreadQuantity_Int;
 
@@ -80,7 +78,6 @@ Pastry_Object_Pastry;
 
 test:should create an instance of Pastry
 Assert.AreEqual(typeof(Pastry), newPastry);
-
 
 Pastry_PastryQuantity_Int;
 

@@ -37,7 +37,6 @@ Open the file and follow the steps provided by the installer for your OS.
 Confirm the installation is successful by opening a new Windows PowerShell window and running the command dotnet --version. You should see something a response like this (version numbers do not need to be the same): 2.2.105
 This means .NET and C# are installed and our computer recognizes the dotnet command.
 
-
 ## Run Tests
 Open Terminal, navigate into the "Bakery.Tests/" folder in the command line
 Run the following command $"dotnet restore" to retrieve and install the packages we listed in .csproj in our application.
